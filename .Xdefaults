@@ -1,0 +1,60 @@
+!颜色设置
+URxvt.depth:32
+URxvt.colorBD:white
+URxvt.colorUL:Green
+URxvt.background: black
+URxvt.foreground: white
+!!!调整透明度
+URxvt.inheritPixmap: True
+URxvt.tintColor: grey
+URxvt.shading: 60
+!!URL操作
+URxvt.urlLauncher:firefox
+URxvt.matcher.button:1
+!!滚动条设置
+URxvt.scrollBar:False
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+URxvt.saveLines:5000
+!!滚屏设置
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput:False
+URxvt.scrollWithBuffer:True
+URxvt.scrollTtyKeypress:True
+!!光标闪烁
+URxvt.cursorBlink:True
+
+Xft.dpi:96
+URxvt.font:xft:文泉驿等宽微米黑:size=11:style=Regular:antialias=true,xft:文泉驿等宽微米黑:size=11:style=Regular:antialias=true
+URxvt.boldfont:xft:文泉驿等宽微米黑:size=11:style=Bold:antialias=true,xft:文泉驿等宽微米黑:size=11:style=Bold:antialias=true
+
+URxvt.perl-lib:/home/qhsong/.urxvt/ext
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+!!Black
+URxvt.color0:  #000000
+URxvt.color8:  #555753
+!!Red
+URxvt.color1:  #CC0000
+URxvt.color9:  #EF2929
+!!Green
+URxvt.color2:  #4E9A06
+URxvt.color10: #8AE234
+!!Yellow
+URxvt.color3:  #C4A000
+URxvt.color11: #FCE94F
+!!Blue
+URxvt.color4:  #3465A4
+URxvt.color12: #729FCF
+!!Magenta
+URxvt.color5:  #75507B
+URxvt.color13: #AD7FA8
+!!Cyan
+URxvt.color6:  #06989A
+URxvt.color14: #34E2E2
+!White
+URxvt.color7:  #D3D7CF
+URxvt.color15: #EEEEEC

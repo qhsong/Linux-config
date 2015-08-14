@@ -57,7 +57,7 @@ let g:C_UseTool_doxygen = 'yes'
 set ai
 set cindent
 set ts=4
-set tabstop=4
+set expandtab
 set number
 syntax enable
 

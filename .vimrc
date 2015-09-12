@@ -16,7 +16,6 @@ filetype off                  " required
 " Plugin 'tpope/vim-fugitive'
  " plugin from http://vim-scripts.org/vim/scripts.html
  Plugin 'L9'
- Plugin 'altercation/vim-colors-solarized'
  " Git plugin not hosted on GitHub
  Plugin 'git://git.wincent.com/command-t.git'
  " git repos on your local machine (i.e. when working on your own plugin)
@@ -30,7 +29,6 @@ filetype off                  " required
  Plugin 'Valloric/YouCompleteMe'
  "Plugin 'Valloric/ListToggle'
  "Plugin 'scrooloose/syntastic'
- Plugin 'fatih/vim-go'
  Plugin 'fatih/molokai'
  Plugin 'scrooloose/nerdtree'
 
@@ -55,15 +53,14 @@ let g:ycm_confirm_extra_conf = 0
 
 let g:C_UseTool_cmake = 'yes'
 let g:C_UseTool_doxygen = 'yes'
+
 set ai
-set cindent
 set ts=4
-set tabstop=4
+set shiftwidth=4
+set expandtab
 set number
-set backspace=2
 syntax enable
-set background=dark
-colorscheme solarized
+
 "colorscheme molokai
 nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
